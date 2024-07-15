@@ -1,5 +1,6 @@
 import "./App.css";
 import Message from "./Components/Message";
+import SinInSingUp from "./Components/SingIn_SingUp";
 import Container from "./container";
 
 function App() {
