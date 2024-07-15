@@ -23,9 +23,7 @@ const SinInSingUp = () => {
               required=""
             />
 
-            <button type="button" onclick="sub()">
-              Sign up
-            </button>
+            <button>Sign up</button>
           </form>
         </div>
 
