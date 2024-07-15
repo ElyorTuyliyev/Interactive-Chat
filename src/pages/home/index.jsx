@@ -1,8 +1,21 @@
+import MessageIconText from "./components/Messege-icon";
 import HomeStyle from "./home.style";
 import BarsIcon from "./images/bars-icon.svg";
 import LoopIcon from "./images/Loop-icon.svg";
 
 function Home() {
+  const asideMessageText = [
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+  ];
+  const mainMessageText = [
+    {
+      messageText: "No chats here yet…",
+      key: "2",
+    },
+  ];
   return (
     <>
       <HomeStyle>
@@ -22,8 +35,15 @@ function Home() {
               />
             </div>
           </div>
+          {/* {asideMessageText.map((item) => (
+            <MessageIconText key={item.messageText} {...item} />
+          ))} */}
         </div>
-        <div className="main__wrapper"></div>
+        <div className="main__wrapper ">
+          {/* {mainMessageText.map((item) => (
+            <MessageIconText key={item.messageText} {...item} />
+          ))} */}
+        </div>
       </HomeStyle>
     </>
   );

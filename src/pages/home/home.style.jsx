@@ -7,15 +7,7 @@ const HomeStyle = styled.div`
     max-width: 360px;
     width: 100%;
     height: 100vh;
-    border-radius: 10px 0 0 10px;
     background-color: #17191c;
-  }
-
-  .main__wrapper {
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    border-radius: 0 10px 10px 0;
   }
 
   .aside__menu-wrapper {
@@ -44,6 +36,29 @@ const HomeStyle = styled.div`
     outline: none;
     color: #fff;
     font-weight: 400;
+  }
+
+  .aside__chanel-wrapper {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aside__message-chanel-text {
+    font-weight: 500;
+    font-size: 24px;
+    color: #747881;
+  }
+
+  .main__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
   }
 `;
 
