@@ -11,9 +11,9 @@ function Main() {
   return (
     <MainStyle>
       <div className="main__wrapper ">
-        {mainMessageText.map((item) => (
+        {/* {mainMessageText.map((item) => (
           <MessageIconText key={item.messageText} {...item} />
-        ))}
+        ))} */}
       </div>
     </MainStyle>
   );
