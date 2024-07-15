@@ -1,7 +1,9 @@
-import MessageIconText from "./components/Messege-icon";
+import Main from "./components/Main";
+import Users from "./components/User/Components/User";
 import HomeStyle from "./home.style";
 import BarsIcon from "./images/bars-icon.svg";
 import LoopIcon from "./images/Loop-icon.svg";
+import PersonImg from "./images/Profile pic.png";
 
 function Home() {
   const asideMessageText = [
@@ -10,12 +12,34 @@ function Home() {
       key: "1",
     },
   ];
-  const mainMessageText = [
+
+  const users = [
     {
-      messageText: "No chats here yet…",
-      key: "2",
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
     },
   ];
+
   return (
     <>
       <HomeStyle>
@@ -35,15 +59,15 @@ function Home() {
               />
             </div>
           </div>
+          {users.map((item) => (
+            <Users key={item.userDate} {...item} />
+          ))}
+
           {/* {asideMessageText.map((item) => (
             <MessageIconText key={item.messageText} {...item} />
           ))} */}
         </div>
-        <div className="main__wrapper ">
-          {/* {mainMessageText.map((item) => (
-            <MessageIconText key={item.messageText} {...item} />
-          ))} */}
-        </div>
+        <Main />
       </HomeStyle>
     </>
   );
