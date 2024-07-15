@@ -20,6 +20,7 @@ const HomeStyle = styled.div`
   .aside__search-wrapper {
     display: flex;
     position: relative;
+    width: 100%;
   }
 
   .aside__loop-icon {
@@ -36,6 +37,7 @@ const HomeStyle = styled.div`
     outline: none;
     color: #fff;
     font-weight: 400;
+    width: 100%;
   }
 
   .aside__chanel-wrapper {
@@ -50,15 +52,6 @@ const HomeStyle = styled.div`
     font-weight: 500;
     font-size: 24px;
     color: #747881;
-  }
-
-  .main__wrapper {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000;
   }
 `;
 
