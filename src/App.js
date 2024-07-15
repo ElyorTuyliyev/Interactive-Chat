@@ -1,13 +1,13 @@
 import "./App.css";
-import Message from "./Components/Message";
+
 import Container from "./container";
+import Home from "./pages/home";
 
 function App() {
   return (
     <div className="App">
       <Container>
-        <Message messageText={"birinchi messege ketdi "} sendData={"12:01"} />
-        <Message messageText={"birinchi messege ketdi "} sendData={"12:01"} />
+        <Home />
       </Container>
     </div>
   );
