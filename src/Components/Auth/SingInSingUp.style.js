@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SingUpSinIn = styled.div`
+const StyledAuth = styled.div`
   .main {
     width: 450px;
     height: 650px;
@@ -81,4 +81,4 @@ const SingUpSinIn = styled.div`
     transform: scale(0.6);
   }
 `;
-export default SingUpSinIn;
+export default StyledAuth;
