@@ -1,7 +1,7 @@
 import React from "react";
 import SingUpSinIn from "./SingInSingUp.style";
-import SingIN from "./Components/Sing.in";
-import SingUp from "./Components/Sing.up";
+import SingIN from "./Components/SingUp";
+import SingUp from "./Components/SingIn";
 
 const SinInSingUp = () => {
   return (

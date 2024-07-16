@@ -1,4 +1,5 @@
-import MessageIconText from "../Message-icon";
+import MainUser from "./Components/MainUser";
+import SendMessage from "./Components/TypText";
 import MainStyle from "./Main.style";
 
 function Main() {
@@ -11,9 +12,11 @@ function Main() {
   return (
     <MainStyle>
       <div className="main__wrapper ">
+        <MainUser />
         {/* {mainMessageText.map((item) => (
           <MessageIconText key={item.messageText} {...item} />
-        ))} */}
+          ))} */}
+        <SendMessage />
       </div>
     </MainStyle>
   );
