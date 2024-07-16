@@ -9,11 +9,11 @@ const SendMessageStyle = styled.div`
   .sendMessage__wrapper {
     display: flex;
     align-items: center;
+    gap: 16px;
     justify-content: space-between;
   }
 
   .sendMessage__typ-wrapper {
-    max-width: 500px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -25,10 +25,12 @@ const SendMessageStyle = styled.div`
     width: 100%;
     padding: 10px 16px;
     border-radius: 20px;
+    font-weight: 300;
     background-color: transparent;
     border: 1px solid #272a30;
     outline: none;
     color: #fff;
+    letter-spacing: 0.3px;
   }
 
   .sendMessage__icon-face {

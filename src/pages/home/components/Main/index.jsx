@@ -1,4 +1,5 @@
 import MainUser from "./Components/MainUser";
+import MessageList from "./Components/MessageList";
 import SendMessage from "./Components/TypText";
 import MainStyle from "./Main.style";
 
@@ -16,6 +17,7 @@ function Main() {
         {/* {mainMessageText.map((item) => (
           <MessageIconText key={item.messageText} {...item} />
           ))} */}
+        <MessageList />
         <SendMessage />
       </div>
     </MainStyle>
