@@ -41,6 +41,9 @@ const MessageDeleteStyle = styled.div`
       cursor: pointer;
       font-size: 14px;
       background-color: transparent;
+      &:hover {
+        color: #ffffff;
+      }
     }
   }
 `;

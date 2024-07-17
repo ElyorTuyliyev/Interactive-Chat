@@ -29,6 +29,8 @@ const MessageList = forwardRef(function ({ scrollToEndHandler }, ref) {
         <p className="message__text">
           Salom bizning interaktiv chatga xush kelibsz
         </p>
+        <Change />
+        {/* <MessageDelete /> */}
         <p className="message__text">
           Salom bizning interaktiv chatga xush kelibsz
         </p>
@@ -54,7 +56,6 @@ const MessageList = forwardRef(function ({ scrollToEndHandler }, ref) {
           exercitationem quidem quia. Rerum placeat, error illum aut
           voluptatibus perferendis magnam quaerat.
         </p>
-        <MessageDelete />
         <p className="message__text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis
           voluptate pariatur, eaque modi vitae animi voluptatibus itaque

@@ -10,7 +10,7 @@ function MessageDelete() {
         </p>
         <div className="deleteMessage__btn-wrapper">
           <button>Cancel</button>
-          <button>DELETE</button>
+          <button>Delete</button>
         </div>
       </div>
     </MessageDeleteStyle>
