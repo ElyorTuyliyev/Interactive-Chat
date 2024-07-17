@@ -7,6 +7,7 @@ const MessageListStyle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  scroll-behavior: smooth;
   &::-webkit-scrollbar {
     display: none;
   }
@@ -26,7 +27,9 @@ const MessageListStyle = styled.div`
     color: #fff;
     background-color: #1c1e22;
     padding: 8px 16px;
+    scroll-behavior: smooth;
     border-radius: 20px 20px 20px 0;
+    position: relative;
   }
 `;
 
