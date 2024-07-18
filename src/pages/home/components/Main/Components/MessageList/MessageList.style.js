@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const MessageListStyle = styled.div`
-  max-height: 100%;
+  margin: 0px 0 10px 0;
+
   flex: 1;
   overflow-y: auto;
   display: flex;

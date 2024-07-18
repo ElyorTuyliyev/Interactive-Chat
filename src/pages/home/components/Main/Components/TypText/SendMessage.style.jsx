@@ -37,6 +37,17 @@ const SendMessageStyle = styled.div`
     position: absolute;
     right: 4px;
   }
+
+  .send__icon-wrapper {
+    width: 45px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+    background-color: #4c525c;
+    border: none;
+  }
 `;
 
 export default SendMessageStyle;

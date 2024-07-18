@@ -7,7 +7,7 @@ import MainStyle from "./Main.style";
 function Main() {
   const messagesListRef = createRef();
   function scrollToEnd() {
-    messagesListRef.current.scroll({
+    messagesListRef.current?.scroll({
       behavior: "smooth",
       top: messagesListRef.current.scrollHeight,
     });
@@ -26,7 +26,11 @@ function Main() {
         {/* {mainMessageText.map((item) => (
           <MessageIconText key={item.messageText} {...item} />
           ))} */}
-        <MessageList ref={messagesListRef} scrollToEndHandler={scrollToEnd} />
+        <MessageList
+          ref={messagesListRef}
+          scrollToEndHandler={scrollToEnd}
+          message={"message"}
+        />
         <SendMessage
           messagesListRef={messagesListRef}
           scrollToEndHandler={scrollToEnd}
