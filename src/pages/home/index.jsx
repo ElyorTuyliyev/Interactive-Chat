@@ -1,4 +1,5 @@
 import Main from "./components/Main";
+import MessageIconText from "./components/Message-icon";
 import Users from "./components/User/Components/User";
 import HomeStyle from "./home.style";
 import BarsIcon from "./images/bars-icon.svg";
@@ -62,8 +63,8 @@ function Home() {
           {users.map((item) => (
             <Users key={item.userDate} {...item} />
           ))}
-
-          {/* {asideMessageText.map((item) => (
+          {/* 
+          {asideMessageText.map((item) => (
             <MessageIconText key={item.messageText} {...item} />
           ))} */}
         </div>

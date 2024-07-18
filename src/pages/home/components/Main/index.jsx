@@ -3,6 +3,7 @@ import MainUser from "./Components/MainUser";
 import MessageList from "./Components/MessageList";
 import SendMessage from "./Components/TypText";
 import MainStyle from "./Main.style";
+import MessageIconText from "../Message-icon";
 
 function Main() {
   const messagesListRef = createRef();
@@ -23,9 +24,9 @@ function Main() {
     <MainStyle>
       <div className="main__wrapper ">
         <MainUser />
-        {/* {mainMessageText.map((item) => (
+        {mainMessageText.map((item) => (
           <MessageIconText key={item.messageText} {...item} />
-          ))} */}
+        ))}
         <MessageList
           ref={messagesListRef}
           scrollToEndHandler={scrollToEnd}
