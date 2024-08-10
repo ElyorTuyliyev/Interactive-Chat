@@ -1,22 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
+// import { SIGN_up } from "./api";
+import { gql, useMutation } from "@apollo/client";
+const SIGN_up = gql`
+  mutation SignUp($userName: String!, $password: String!) {
+    signUp(name: $userName, password: $password) {
+      _id
+      name
+      password
+    }
+  }
+`;
 
 function SingIN() {
+  const [signUp, { data, loading, error }] = useMutation(SIGN_up);
+  console.log(data);
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
     const { username, password } = e.target;
-    fetch("http://localhost:9000/auth/sign-up", {
-      method: "POST",
-      headers: {
-        "CONTENT-type": "application/json",
-      },
-      body: JSON.stringify({
-        username: username.value,
-        password: password.value,
-      }),
-    })
-      .then((res) => res.json())
-      .then(console.log)
-      .catch((err) => console.log(err));
+    signUp({ userName: username, password });
   };
   return (
     <div className="signup">

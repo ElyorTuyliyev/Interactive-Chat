@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 const SingUpSinIn = styled.div`
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   .main {
     width: 450px;
     height: 650px;

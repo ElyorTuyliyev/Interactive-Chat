@@ -15,7 +15,7 @@ const MessageList = ({ scrollToEndHandler, message, ref }) => {
       <div className="messageList__wrapper">
         <p className="message__text">{message}</p>
         {/* <Change /> */}
-        {/* <MessageDelete /> */}s
+        {/* <MessageDelete /> */}
       </div>
     </MessageListStyle>
   );
