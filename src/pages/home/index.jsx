@@ -39,6 +39,48 @@ function Home() {
       userMessage: "Here’re my latest drone shots",
       userDate: "12:01",
     },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
+    {
+      userImg: PersonImg,
+      userName: "Bill Sell",
+      userMessage: "Here’re my latest drone shots",
+      userDate: "12:01",
+    },
   ];
 
   return (
