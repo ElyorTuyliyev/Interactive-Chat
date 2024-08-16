@@ -12,6 +12,186 @@ function Home() {
       messageText: "You currently have no channels",
       key: "1",
     },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
+    {
+      messageText: "You currently have no channels",
+      key: "1",
+    },
   ];
 
   const users = [
@@ -105,10 +285,10 @@ function Home() {
           {users.map((item) => (
             <Users key={item.userDate} {...item} />
           ))}
-          {/* 
+
           {asideMessageText.map((item) => (
             <MessageIconText key={item.messageText} {...item} />
-          ))} */}
+          ))}
         </div>
         <Main />
       </HomeStyle>

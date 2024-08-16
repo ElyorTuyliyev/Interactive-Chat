@@ -30,7 +30,9 @@ function Main() {
         <MessageList
           ref={messagesListRef}
           scrollToEndHandler={scrollToEnd}
-          message={"message"}
+          message={
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nobis blanditiis eveniet quibusdam quidem, voluptatem officia praesentium. Aut perspiciatis, error reiciendis numquam repudiandae maxime id, deleniti est fugit esse sunt!"
+          }
         />
         <SendMessage
           messagesListRef={messagesListRef}

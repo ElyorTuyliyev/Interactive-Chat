@@ -8,13 +8,21 @@ const HomeStyle = styled.div`
     width: 100%;
     height: 100vh;
     background-color: #17191c;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   .aside__menu-wrapper {
     display: flex;
     align-items: center;
     gap: 7px;
-    padding: 10px 16px;
+    padding: 13px 16px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #17191c;
   }
 
   .aside__search-wrapper {
