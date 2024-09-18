@@ -1,10 +1,8 @@
 import Main from "./components/Main";
 import MessageIconText from "./components/Message-icon";
-import Users from "./components/User/Components/User";
 import HomeStyle from "./home.style";
 import BarsIcon from "./images/bars-icon.svg";
 import LoopIcon from "./images/Loop-icon.svg";
-import PersonImg from "./images/Profile pic.png";
 
 function Home() {
   const asideMessageText = [
